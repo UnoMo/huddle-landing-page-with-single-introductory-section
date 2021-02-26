@@ -1,41 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
-  <link rel="stylesheet" href="css/app.css">
-</head>
-<body>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
     <header>
-        <img src="/images/logo.svg" alt="Huddle Community">
+      <img src="./images/logo.svg" alt="Huddle Community" />
     </header>
 
-        <div class="landing-items">
-            <div class="landing-item-left">
-                <img class="responsive" src="/images/illustration-mockups.svg" alt="Build the community">
-            </div>
-            <div class="landing-item-right">
-              <h1>Build The Community Your Fans Will Love</h1>
+    <figure class="landing-items">
+      <div class="landing-item-left">
+        <img class="heroimg" src="./images/illustration-mockups.svg" alt="Build the community" />
+      </div>
 
-              Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-              Create connections with your users as you engage in genuine discussion. 
-            
-              Register
-            </div>
+      <div class="landing-items-right">
+        <div class="landing-item-1">
+          <h1>Build The Community Your Fans Will Love</h1>
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create
+          connections with your users as you engage in genuine discussion. Register
         </div>
-        <div class="social">
-          
+        <div class="landing-item-2">
+          <a class="btn btn-full" href="#">Register</a>
         </div>
+      </div>
+    </figure>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://github.com/UnoMo">Uno Wahl</a>.
-    </p>
-  </footer>
-</body>
+    <div class="social__icons">
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-facebook-f"></i>
+    </div>
+
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+        <a href="https://github.com/UnoMo">Uno Wahl</a>.
+      </p>
+    </footer>
+  </body>
 </html>
